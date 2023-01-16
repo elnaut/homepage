@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply
+        -skew-y-6
+        active:bg-blue-700
+        bg-blue-500
+        focus:ring-opacity-50
+        focus:outline-none
+        focus:ring-blue-500
+        focus:ring
+        hover:bg-blue-600
+        mt-12
+        px-8
+        py-4
+        rounded-lg
+        text-white
+        tracking-wider
+        transform;
+    }
+}
