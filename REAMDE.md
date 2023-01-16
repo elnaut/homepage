@@ -13,5 +13,5 @@ npm install
 ### Building
 
 ```bash
-npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch
+npm run dev
 ```
